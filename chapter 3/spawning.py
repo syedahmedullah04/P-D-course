@@ -21,4 +21,4 @@ if __name__ == "__main__":
     for process in processes:
         process.join()
 
-    print("✅ All machines have completed their production!")
+    print(" All machines have completed their production!")
