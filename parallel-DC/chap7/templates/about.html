@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager - About</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .content h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            margin-top: 30px;
+        }
+        
+        .content h2:first-child {
+            margin-top: 0;
+        }
+        
+        .content p {
+            line-height: 1.8;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        .content ul {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        
+        .content li {
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            margin-top: 20px;
+            transition: all 0.3s;
+            font-weight: 600;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .tech-stack {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .tech-stack h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>ℹ️ About This Application</h1>
+        </div>
+        
+        <div class="content">
+            <h2>📖 Overview</h2>
+            <p>
+                This is a simple yet powerful Task Manager web application built with Flask, 
+                demonstrating the practical implementation of a real-life task management system.
+            </p>
+            
+            <h2>✨ Features</h2>
+            <ul>
+                <li>➕ <strong>Add Tasks:</strong> Quickly add new tasks to your list</li>
+                <li>✓ <strong>Complete Tasks:</strong> Mark tasks as completed when done</li>
+                <li>✗ <strong>Delete Tasks:</strong> Remove tasks you no longer need</li>
+                <li>📊 <strong>Statistics:</strong> View total, pending, and completed tasks</li>
+                <li>🎨 <strong>Beautiful UI:</strong> Modern and responsive design</li>
+            </ul>
+            
+            <div class="tech-stack">
+                <h3>🛠️ Technology Stack</h3>
+                <ul>
+                    <li><strong>Backend:</strong> Flask (Python Web Framework)</li>
+                    <li><strong>Frontend:</strong> HTML5, CSS3</li>
+                    <li><strong>Templating:</strong> Jinja2</li>
+                    <li><strong>Data Storage:</strong> In-memory (for demonstration)</li>
+                </ul>
+            </div>
+            
+            <h2>🎯 Purpose</h2>
+            <p>
+                This application serves as a practical example for learning Flask web development. 
+                It demonstrates routing, templates, forms, and basic CRUD operations in a real-world context.
+            </p>
+            
+            <h2>👨‍💻 Developer</h2>
+            <p>
+                Created as a demonstration project for the parallel-DC repository.
+            </p>
+            
+            <a href="/" class="btn">← Back to Tasks</a>
+        </div>
+    </div>
+</body>
+</html>
